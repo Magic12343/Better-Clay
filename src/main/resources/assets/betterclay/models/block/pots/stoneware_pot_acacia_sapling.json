@@ -1,0 +1,6 @@
+{
+	"parent": "betterclay:block/stoneware_pot_cross",
+	"textures": {
+		"plant": "block/acacia_sapling"
+	}
+}

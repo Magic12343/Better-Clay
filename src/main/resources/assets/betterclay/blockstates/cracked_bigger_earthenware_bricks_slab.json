@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "betterclay:block/cracked_bigger_earthenware_bricks_slab"
+    },
+    "type=double": {
+      "model": "betterclay:block/cracked_bigger_earthenware_bricks"
+    },
+    "type=top": {
+      "model": "betterclay:block/cracked_bigger_earthenware_bricks_slab_top"
+    }
+  }
+}

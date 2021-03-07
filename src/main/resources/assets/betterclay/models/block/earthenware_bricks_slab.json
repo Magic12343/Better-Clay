@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "betterclay:blocks/earthenware_bricks",
+    "top": "betterclay:blocks/earthenware_bricks",
+    "side": "betterclay:blocks/earthenware_bricks"
+  }
+}
