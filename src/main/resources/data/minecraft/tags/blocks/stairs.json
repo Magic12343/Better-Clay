@@ -16,7 +16,15 @@
     "betterclay:cracked_adobe_bricks_stairs", 
     "betterclay:dirty_adobe_bricks_stairs", 
     "betterclay:bigger_adobe_bricks_stairs", 
-    "betterclay:cracked_bigger_adobe_bricks_stairs", 
-    "betterclay:dirty_bigger_adobe_bricks_stairs" 
+    "betterclay:cracked_bigger_adobe_bricks_stairs",
+	"betterclay:dirty_bigger_adobe_bricks_stairs",
+    "betterclay:earthenware_bricks_stairs",
+	"betterclay:cracked_earthenware_bricks_stairs",
+	"betterclay:dirty_earthenware_bricks_stairs", 
+	"betterclay:bigger_earthenware_bricks_stairs", 
+	"betterclay:cracked_bigger_earthenware_bricks_stairs", 
+	"betterclay:dirty_bigger_earthenware_bricks_stairs" 
+
+	
   ]
 }

@@ -17,6 +17,12 @@
       "betterclay:dirty_adobe_bricks_wall", 
       "betterclay:bigger_adobe_bricks_wall", 
       "betterclay:cracked_bigger_adobe_bricks_wall", 
-      "betterclay:dirty_bigger_adobe_bricks_wall" 
+      "betterclay:dirty_bigger_adobe_bricks_wall",
+      "betterclay:earthenware_bricks_wall",
+	  "betterclay:cracked_earthenware_bricks_wall",
+	  "betterclay:dirty_earthenware_bricks_wall", 
+	  "betterclay:bigger_earthenware_bricks_wall", 
+	  "betterclay:cracked_bigger_earthenware_bricks_wall", 
+	  "betterclay:dirty_bigger_earthenware_bricks_wall" 
     ]
 }
