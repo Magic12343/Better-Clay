@@ -15,5 +15,18 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 public class OreGeneration {
 
-	
+	public static void generateOres(final BiomeLoadingEvent event) {
+		if (!(event.getCategory().equals(Biome.Category.DESERT) || event.getCategory().equals(Biome.Category.FOREST))) {
+			generateOre(event.getGeneration(), OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
+					BlockInit.STONEWARE.get().getDefaultState(), 15, 5, 3, 40);
+		}
+	}
+
+	private static void generateOre(BiomeGenerationSettingsBuilder settings, RuleTest fillerType, BlockState state,
+			int veinSize, int minHeight, int maxHeight, int amount) {
+		settings.withFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+				Feature.ORE.withConfiguration(new OreFeatureConfig(fillerType, state, veinSize))
+						.withPlacement(Placement.RANGE.configure(new TopSolidRangeConfig(minHeight, 0, maxHeight)))
+						.square().func_242731_b(amount));
+	}
 }
