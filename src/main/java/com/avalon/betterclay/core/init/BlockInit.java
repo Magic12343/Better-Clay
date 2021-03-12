@@ -1,7 +1,6 @@
 package com.avalon.betterclay.core.init;
 
 import com.avalon.betterclay.BetterClay;
-import com.avalon.betterclay.common.blocks.CustomBlock;
 
 
 import net.minecraft.block.AbstractBlock;
