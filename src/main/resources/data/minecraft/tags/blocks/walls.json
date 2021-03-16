@@ -1,28 +1,26 @@
-{
-   "replace": false,
-   "values": [
-      "betterclay:broken_bricks_wall", 
-      "betterclay:dirty_bricks_wall", 
-      "betterclay:bigger_bricks_wall", 
-      "betterclay:cracked_bigger_bricks_wall", 
-      "betterclay:dirty_bigger_bricks_wall",
-      "betterclay:stoneware_bricks_wall", 
-      "betterclay:cracked_stoneware_bricks_wall", 
-      "betterclay:dirty_stoneware_bricks_wall", 
-      "betterclay:bigger_stoneware_bricks_wall", 
-      "betterclay:cracked_bigger_stoneware_bricks_wall", 
-      "betterclay:dirty_bigger_stoneware_bricks_wall", 
-      "betterclay:adobe_bricks_wall", 
-      "betterclay:cracked_adobe_bricks_wall", 
-      "betterclay:dirty_adobe_bricks_wall", 
-      "betterclay:bigger_adobe_bricks_wall", 
-      "betterclay:cracked_bigger_adobe_bricks_wall", 
-      "betterclay:dirty_bigger_adobe_bricks_wall",
-      "betterclay:earthenware_bricks_wall",
-	  "betterclay:cracked_earthenware_bricks_wall",
-	  "betterclay:dirty_earthenware_bricks_wall", 
-	  "betterclay:bigger_earthenware_bricks_wall", 
-	  "betterclay:cracked_bigger_earthenware_bricks_wall", 
-	  "betterclay:dirty_bigger_earthenware_bricks_wall" 
-    ]
-}
+    public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS = ITEMS.register("black_porcelain_bricks",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_SLAB = ITEMS.register("black_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("black_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS = ITEMS.register("cracked_black_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_black_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+	public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_black_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+	public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_WALL = ITEMS.register("black_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));
+	public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_black_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.DECORATIONS)));	
+					
