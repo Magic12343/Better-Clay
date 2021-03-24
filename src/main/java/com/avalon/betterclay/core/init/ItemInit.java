@@ -403,62 +403,394 @@ public class ItemInit {
 	
     public static final RegistryObject<BlockItem> GRAY_PORCELAIN_BRICKS = ITEMS.register("gray_porcelain_bricks",
 			() -> new BlockItem(BlockInit.GRAY_PORCELAIN_BRICKS.get(),
-					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));					
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GRAY_PORCELAIN_BRICKS_SLAB = ITEMS.register("gray_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.GRAY_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GRAY_PORCELAIN_BRICKS_STAIRS = ITEMS.register("gray_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.GRAY_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GRAY_PORCELAIN_BRICKS_WALL = ITEMS.register("gray_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.GRAY_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> LIGHT_GRAY_PORCELAIN_BRICKS = ITEMS.register("light_gray_porcelain_bricks",
 			() -> new BlockItem(BlockInit.LIGHT_GRAY_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_GRAY_PORCELAIN_BRICKS_SLAB = ITEMS.register("light_gray_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.LIGHT_GRAY_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS = ITEMS.register("light_gray_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_GRAY_PORCELAIN_BRICKS_WALL = ITEMS.register("light_gray_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.LIGHT_GRAY_PORCELAIN_BRICKS_WALL.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> GREEN_PORCELAIN_BRICKS = ITEMS.register("green_porcelain_bricks",
 			() -> new BlockItem(BlockInit.GREEN_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GREEN_PORCELAIN_BRICKS_SLAB = ITEMS.register("green_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.GREEN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GREEN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("green_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.GREEN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> GREEN_PORCELAIN_BRICKS_WALL = ITEMS.register("green_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.GREEN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> YELLOW_PORCELAIN_BRICKS = ITEMS.register("yellow_porcelain_bricks",
 			() -> new BlockItem(BlockInit.YELLOW_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> YELLOW_PORCELAIN_BRICKS_SLAB = ITEMS.register("yellow_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.YELLOW_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> YELLOW_PORCELAIN_BRICKS_STAIRS = ITEMS.register("yellow_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.YELLOW_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> YELLOW_PORCELAIN_BRICKS_WALL = ITEMS.register("yellow_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.YELLOW_PORCELAIN_BRICKS_WALL.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> RED_PORCELAIN_BRICKS = ITEMS.register("red_porcelain_bricks",
 			() -> new BlockItem(BlockInit.RED_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> RED_PORCELAIN_BRICKS_SLAB = ITEMS.register("red_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.RED_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> RED_PORCELAIN_BRICKS_STAIRS = ITEMS.register("red_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.RED_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> RED_PORCELAIN_BRICKS_WALL = ITEMS.register("red_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.RED_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> PURPLE_PORCELAIN_BRICKS = ITEMS.register("purple_porcelain_bricks",
 			() -> new BlockItem(BlockInit.PURPLE_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PURPLE_PORCELAIN_BRICKS_SLAB = ITEMS.register("purple_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.PURPLE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PURPLE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("purple_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.PURPLE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PURPLE_PORCELAIN_BRICKS_WALL = ITEMS.register("purple_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.PURPLE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> PINK_PORCELAIN_BRICKS = ITEMS.register("pink_porcelain_bricks",
 			() -> new BlockItem(BlockInit.PINK_PORCELAIN_BRICKS.get(),
-					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));	
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PINK_PORCELAIN_BRICKS_SLAB = ITEMS.register("pink_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.PINK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PINK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("pink_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.PINK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> PINK_PORCELAIN_BRICKS_WALL = ITEMS.register("pink_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.PINK_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> ORANGE_PORCELAIN_BRICKS = ITEMS.register("orange_porcelain_bricks",
 			() -> new BlockItem(BlockInit.ORANGE_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ORANGE_PORCELAIN_BRICKS_SLAB = ITEMS.register("orange_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.ORANGE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ORANGE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("orange_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.ORANGE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> ORANGE_PORCELAIN_BRICKS_WALL = ITEMS.register("orange_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.ORANGE_PORCELAIN_BRICKS_WALL.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> MAGENTA_PORCELAIN_BRICKS = ITEMS.register("magenta_porcelain_bricks",
 			() -> new BlockItem(BlockInit.MAGENTA_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> MAGENTA_PORCELAIN_BRICKS_SLAB = ITEMS.register("magenta_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.MAGENTA_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> MAGENTA_PORCELAIN_BRICKS_STAIRS = ITEMS.register("magenta_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.MAGENTA_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> MAGENTA_PORCELAIN_BRICKS_WALL = ITEMS.register("magenta_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.MAGENTA_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> LIME_PORCELAIN_BRICKS = ITEMS.register("lime_porcelain_bricks",
 			() -> new BlockItem(BlockInit.LIME_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIME_PORCELAIN_BRICKS_SLAB = ITEMS.register("lime_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.LIME_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIME_PORCELAIN_BRICKS_STAIRS = ITEMS.register("lime_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.LIME_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIME_PORCELAIN_BRICKS_WALL = ITEMS.register("lime_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.LIME_PORCELAIN_BRICKS_WALL.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> LIGHT_BLUE_PORCELAIN_BRICKS = ITEMS.register("light_blue_porcelain_bricks",
 			() -> new BlockItem(BlockInit.LIGHT_BLUE_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_BLUE_PORCELAIN_BRICKS_SLAB = ITEMS.register("light_blue_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.LIGHT_BLUE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("light_blue_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> LIGHT_BLUE_PORCELAIN_BRICKS_WALL = ITEMS.register("light_blue_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.LIGHT_BLUE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     
     public static final RegistryObject<BlockItem> CYAN_PORCELAIN_BRICKS = ITEMS.register("cyan_porcelain_bricks",
 			() -> new BlockItem(BlockInit.CYAN_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CYAN_PORCELAIN_BRICKS_SLAB = ITEMS.register("cyan_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CYAN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CYAN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cyan_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CYAN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CYAN_PORCELAIN_BRICKS_WALL = ITEMS.register("cyan_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CYAN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> BROWN_PORCELAIN_BRICKS = ITEMS.register("brown_porcelain_bricks",
 			() -> new BlockItem(BlockInit.BROWN_PORCELAIN_BRICKS.get(),
-					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));	
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BROWN_PORCELAIN_BRICKS_SLAB = ITEMS.register("brown_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.BROWN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BROWN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("brown_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.BROWN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BROWN_PORCELAIN_BRICKS_WALL = ITEMS.register("brown_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.BROWN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> BLUE_PORCELAIN_BRICKS = ITEMS.register("blue_porcelain_bricks",
 			() -> new BlockItem(BlockInit.BLUE_PORCELAIN_BRICKS.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLUE_PORCELAIN_BRICKS_SLAB = ITEMS.register("blue_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.BLUE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLUE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("blue_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.BLUE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLUE_PORCELAIN_BRICKS_WALL = ITEMS.register("blue_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.BLUE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 					
     public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS = ITEMS.register("black_porcelain_bricks",
 			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_SLAB = ITEMS.register("black_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("black_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> BLACK_PORCELAIN_BRICKS_WALL = ITEMS.register("black_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.BLACK_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    
+    //Cracked Colored Porcelain
+    
+    public static final RegistryObject<BlockItem> CRACKED_GRAY_PORCELAIN_BRICKS = ITEMS.register("cracked_gray_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_GRAY_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GRAY_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_gray_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_GRAY_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GRAY_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_gray_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_GRAY_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GRAY_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_gray_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_GRAY_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS = ITEMS.register("cracked_light_gray_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_light_gray_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_light_gray_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_light_gray_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_GRAY_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_GREEN_PORCELAIN_BRICKS = ITEMS.register("cracked_green_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_GREEN_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GREEN_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_green_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_GREEN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GREEN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_green_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_GREEN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_GREEN_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_green_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_GREEN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_YELLOW_PORCELAIN_BRICKS = ITEMS.register("cracked_yellow_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_YELLOW_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_YELLOW_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_yellow_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_YELLOW_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_YELLOW_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_yellow_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_YELLOW_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_YELLOW_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_yellow_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_YELLOW_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_RED_PORCELAIN_BRICKS = ITEMS.register("cracked_red_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_RED_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_RED_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_red_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_RED_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_RED_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_red_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_RED_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_RED_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_red_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_RED_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_PURPLE_PORCELAIN_BRICKS = ITEMS.register("cracked_purple_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_PURPLE_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PURPLE_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_purple_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_PURPLE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PURPLE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_purple_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_PURPLE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PURPLE_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_purple_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_PURPLE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_PINK_PORCELAIN_BRICKS = ITEMS.register("cracked_pink_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_PINK_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PINK_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_pink_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_PINK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PINK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_pink_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_PINK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_PINK_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_pink_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_PINK_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_ORANGE_PORCELAIN_BRICKS = ITEMS.register("cracked_orange_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_ORANGE_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_ORANGE_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_orange_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_ORANGE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_ORANGE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_orange_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_ORANGE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_ORANGE_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_orange_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_ORANGE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_MAGENTA_PORCELAIN_BRICKS = ITEMS.register("cracked_magenta_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_MAGENTA_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_MAGENTA_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_magenta_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_MAGENTA_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_MAGENTA_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_magenta_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_MAGENTA_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_MAGENTA_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_magenta_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_MAGENTA_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_LIME_PORCELAIN_BRICKS = ITEMS.register("cracked_lime_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_LIME_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIME_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_lime_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_LIME_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIME_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_lime_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_LIME_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIME_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_lime_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_LIME_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS = ITEMS.register("cracked_light_blue_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_light_blue_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_light_blue_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_light_blue_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_LIGHT_BLUE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    
+    public static final RegistryObject<BlockItem> CRACKED_CYAN_PORCELAIN_BRICKS = ITEMS.register("cracked_cyan_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_CYAN_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_CYAN_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_cyan_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_CYAN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_CYAN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_cyan_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_CYAN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_CYAN_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_cyan_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_CYAN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_BROWN_PORCELAIN_BRICKS = ITEMS.register("cracked_brown_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_BROWN_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BROWN_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_brown_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_BROWN_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BROWN_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_brown_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_BROWN_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BROWN_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_brown_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_BROWN_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_BLUE_PORCELAIN_BRICKS = ITEMS.register("cracked_blue_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_BLUE_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLUE_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_blue_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_BLUE_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLUE_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_blue_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_BLUE_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLUE_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_blue_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_BLUE_PORCELAIN_BRICKS_WALL.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+					
+    public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS = ITEMS.register("cracked_black_porcelain_bricks",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_SLAB = ITEMS.register("cracked_black_porcelain_bricks_slab",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_SLAB.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_STAIRS = ITEMS.register("cracked_black_porcelain_bricks_stairs",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_STAIRS.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<BlockItem> CRACKED_BLACK_PORCELAIN_BRICKS_WALL = ITEMS.register("cracked_black_porcelain_bricks_wall",
+			() -> new BlockItem(BlockInit.CRACKED_BLACK_PORCELAIN_BRICKS_WALL.get(),
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 						
 
