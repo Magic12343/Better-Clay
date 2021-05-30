@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "betterclay:blocks/chiseled_cyan_porcelain_bricks"
+  }
+}

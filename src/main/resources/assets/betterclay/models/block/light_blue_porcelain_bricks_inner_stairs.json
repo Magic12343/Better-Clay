@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "betterclay:blocks/light_blue_porcelain_bricks",
+    "top": "betterclay:blocks/light_blue_porcelain_bricks",
+    "side": "betterclay:blocks/light_blue_porcelain_bricks"
+  }
+}

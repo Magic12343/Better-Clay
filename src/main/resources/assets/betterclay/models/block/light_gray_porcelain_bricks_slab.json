@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "betterclay:blocks/light_gray_porcelain_bricks",
+    "top": "betterclay:blocks/light_gray_porcelain_bricks",
+    "side": "betterclay:blocks/light_gray_porcelain_bricks"
+  }
+}

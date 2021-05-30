@@ -1,0 +1,6 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "betterclay:blocks/cracked_blue_porcelain_bricks"
+  }
+}

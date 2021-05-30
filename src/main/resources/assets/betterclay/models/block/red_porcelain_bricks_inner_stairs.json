@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "betterclay:blocks/red_porcelain_bricks",
+    "top": "betterclay:blocks/red_porcelain_bricks",
+    "side": "betterclay:blocks/red_porcelain_bricks"
+  }
+}

@@ -2,20 +2,13 @@ package com.avalon.betterclay.core.init;
 
 import com.avalon.betterclay.BetterClay;
 
-
-import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.ChainBlock;
-import net.minecraft.block.GlassBlock;
-import net.minecraft.block.LanternBlock;
-import net.minecraft.block.PaneBlock;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.StairsBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.block.material.Material;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -333,9 +326,9 @@ public class BlockInit {
 				public static final RegistryObject<Block> DIRTY_PORCELAIN_BRICKS_WALL = BLOCKS.register("dirty_porcelain_bricks_wall", 
 							() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
 			
-					public static final RegistryObject<Block> BIGGER_PORCELAIN_BRICKS = BLOCKS.register("bigger_porcelain_bricks", 
-							() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
-					public static final RegistryObject<Block> BIGGER_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_porcelain_bricks_slab", 
+				public static final RegistryObject<Block> BIGGER_PORCELAIN_BRICKS = BLOCKS.register("bigger_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_porcelain_bricks_slab", 
 						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
 				public static final RegistryObject<Block> BIGGER_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_porcelain_bricks_stairs", 
 						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
@@ -631,6 +624,340 @@ public class BlockInit {
 						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
 				public static final RegistryObject<Block> CRACKED_BLACK_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_black_porcelain_bricks_wall", 
 					() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				//Bigger Colored Porcelain
+				
+				public static final RegistryObject<Block> BIGGER_GRAY_PORCELAIN_BRICKS = BLOCKS.register("bigger_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GRAY_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_gray_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GRAY_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_gray_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GRAY_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_gray_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS = BLOCKS.register("bigger_light_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_light_gray_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_light_gray_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_light_gray_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_GREEN_PORCELAIN_BRICKS = BLOCKS.register("bigger_green_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GREEN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_green_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GREEN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_green_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_GREEN_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_green_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_YELLOW_PORCELAIN_BRICKS = BLOCKS.register("bigger_yellow_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_YELLOW_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_yellow_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_YELLOW_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_yellow_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_YELLOW_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_yellow_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_RED_PORCELAIN_BRICKS = BLOCKS.register("bigger_red_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_RED_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_red_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_RED_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_red_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_RED_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_red_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_PURPLE_PORCELAIN_BRICKS = BLOCKS.register("bigger_purple_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PURPLE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_purple_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PURPLE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_purple_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PURPLE_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_purple_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_PINK_PORCELAIN_BRICKS = BLOCKS.register("bigger_pink_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PINK_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_pink_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PINK_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_pink_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_PINK_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_pink_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_ORANGE_PORCELAIN_BRICKS = BLOCKS.register("bigger_orange_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_ORANGE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_orange_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_ORANGE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_orange_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_ORANGE_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_orange_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_MAGENTA_PORCELAIN_BRICKS = BLOCKS.register("bigger_magenta_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_MAGENTA_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_magenta_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_MAGENTA_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_magenta_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_MAGENTA_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_magenta_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_LIME_PORCELAIN_BRICKS = BLOCKS.register("bigger_lime_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIME_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_lime_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIME_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_lime_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIME_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_lime_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS = BLOCKS.register("bigger_light_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_light_blue_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_light_blue_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_light_blue_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_CYAN_PORCELAIN_BRICKS = BLOCKS.register("bigger_cyan_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_CYAN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_cyan_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_CYAN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_cyan_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_CYAN_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_cyan_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_BROWN_PORCELAIN_BRICKS = BLOCKS.register("bigger_brown_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BROWN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_brown_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BROWN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_brown_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BROWN_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_brown_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_BLUE_PORCELAIN_BRICKS = BLOCKS.register("bigger_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLUE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_blue_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLUE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_blue_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLUE_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_blue_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIGGER_BLACK_PORCELAIN_BRICKS = BLOCKS.register("bigger_black_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLACK_PORCELAIN_BRICKS_SLAB = BLOCKS.register("bigger_black_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLACK_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("bigger_black_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIGGER_BLACK_PORCELAIN_BRICKS_WALL = BLOCKS.register("bigger_black_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_GRAY_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GRAY_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_gray_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GRAY_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_gray_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GRAY_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_gray_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_light_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_light_gray_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_light_gray_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_GRAY_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_light_gray_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_GREEN_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_green_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GREEN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_green_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GREEN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_green_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_GREEN_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_green_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_YELLOW_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_yellow_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_YELLOW_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_yellow_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_YELLOW_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_yellow_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_YELLOW_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_yellow_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_RED_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_red_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_RED_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_red_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_RED_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_red_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_RED_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_red_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_PURPLE_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_purple_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PURPLE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_purple_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PURPLE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_purple_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PURPLE_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_purple_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_PINK_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_pink_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PINK_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_pink_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PINK_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_pink_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_PINK_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_pink_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_ORANGE_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_orange_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_ORANGE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_orange_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_ORANGE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_orange_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_ORANGE_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_orange_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_MAGENTA_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_magenta_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_MAGENTA_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_magenta_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_MAGENTA_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_magenta_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_MAGENTA_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_magenta_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIME_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_lime_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIME_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_lime_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIME_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_lime_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIME_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_lime_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_light_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_light_blue_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_light_blue_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_LIGHT_BLUE_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_light_blue_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_CYAN_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_cyan_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_CYAN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_cyan_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_CYAN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_cyan_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_CYAN_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_cyan_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_BROWN_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_brown_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BROWN_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_brown_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BROWN_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_brown_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BROWN_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_brown_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLUE_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLUE_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_blue_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLUE_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_blue_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLUE_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_blue_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLACK_PORCELAIN_BRICKS = BLOCKS.register("cracked_bigger_black_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLACK_PORCELAIN_BRICKS_SLAB = BLOCKS.register("cracked_bigger_black_porcelain_bricks_slab", 
+						() -> new SlabBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLACK_PORCELAIN_BRICKS_STAIRS = BLOCKS.register("cracked_bigger_black_porcelain_bricks_stairs", 
+						() -> new StairsBlock(Blocks.BRICKS::getDefaultState, Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> CRACKED_BIGGER_BLACK_PORCELAIN_BRICKS_WALL = BLOCKS.register("cracked_bigger_black_porcelain_bricks_wall", 
+						() -> new WallBlock(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				
+				public static final RegistryObject<Block> BIG_GRAY_PORCELAIN_BRICK = BLOCKS.register("big_gray_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_LIGHT_GRAY_PORCELAIN_BRICK = BLOCKS.register("big_light_gray_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_GREEN_PORCELAIN_BRICK = BLOCKS.register("big_green_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_YELLOW_PORCELAIN_BRICK = BLOCKS.register("big_yellow_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_RED_PORCELAIN_BRICK = BLOCKS.register("big_red_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_PURPLE_PORCELAIN_BRICK = BLOCKS.register("big_purple_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_PINK_PORCELAIN_BRICK = BLOCKS.register("big_pink_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_ORANGE_PORCELAIN_BRICK = BLOCKS.register("big_orange_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_MAGENTA_PORCELAIN_BRICK = BLOCKS.register("big_magenta_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_LIME_PORCELAIN_BRICK = BLOCKS.register("big_lime_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_LIGHT_BLUE_PORCELAIN_BRICK = BLOCKS.register("big_light_blue_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_CYAN_PORCELAIN_BRICK = BLOCKS.register("big_cyan_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_BROWN_PORCELAIN_BRICK = BLOCKS.register("big_brown_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_BLUE_PORCELAIN_BRICK = BLOCKS.register("big_blue_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+				public static final RegistryObject<Block> BIG_BLACK_PORCELAIN_BRICK = BLOCKS.register("big_black_porcelain_brick", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));
+			
+				public static final RegistryObject<Block> CHISELED_GRAY_PORCELAIN_BRICKS = BLOCKS.register("chiseled_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_LIGHT_GRAY_PORCELAIN_BRICKS = BLOCKS.register("chiseled_light_gray_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_GREEN_PORCELAIN_BRICKS = BLOCKS.register("chiseled_green_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_YELLOW_PORCELAIN_BRICKS = BLOCKS.register("chiseled_yellow_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_RED_PORCELAIN_BRICKS = BLOCKS.register("chiseled_red_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_PURPLE_PORCELAIN_BRICKS = BLOCKS.register("chiseled_purple_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_PINK_PORCELAIN_BRICKS = BLOCKS.register("chiseled_pink_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_ORANGE_PORCELAIN_BRICKS = BLOCKS.register("chiseled_orange_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_MAGENTA_PORCELAIN_BRICKS = BLOCKS.register("chiseled_magenta_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_LIME_PORCELAIN_BRICKS = BLOCKS.register("chiseled_lime_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_LIGHT_BLUE_PORCELAIN_BRICKS = BLOCKS.register("chiseled_light_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_CYAN_PORCELAIN_BRICKS = BLOCKS.register("chiseled_cyan_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_BROWN_PORCELAIN_BRICKS = BLOCKS.register("chiseled_brown_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_BLUE_PORCELAIN_BRICKS = BLOCKS.register("chiseled_blue_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
+				public static final RegistryObject<Block> CHISELED_BLACK_PORCELAIN_BRICKS = BLOCKS.register("chiseled_black_porcelain_bricks", 
+						() -> new Block(Block.Properties.from(Blocks.BRICKS).harvestLevel(0).harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5f, 6.0f)));	
 
 
 }

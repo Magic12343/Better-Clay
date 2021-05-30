@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "betterclay:blocks/yellow_porcelain_bricks",
+    "top": "betterclay:blocks/yellow_porcelain_bricks",
+    "side": "betterclay:blocks/yellow_porcelain_bricks"
+  }
+}
