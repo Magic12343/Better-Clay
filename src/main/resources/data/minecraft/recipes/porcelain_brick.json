@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterclay:kaolin_chunk"
+  },
+  "result": "betterclay:porcelain_brick",
+  "experience": 0.35,
+  "cookingtime": 200
+}

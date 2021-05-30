@@ -16,23 +16,24 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 @EventBusSubscriber
-public class EarthenwareGen {
+public class KaolinGen {
 	@SubscribeEvent
 	public static void generateOres(final BiomeLoadingEvent event) {
       if (!(
-    		//Biomas en los que NO pueden aparecer.
+    		  //Biomas en los que NO pueden aparecer.
     		  event.getCategory().equals(Biome.Category.EXTREME_HILLS) ||
-    		  event.getCategory().equals(Biome.Category.FOREST) ||
-    		  event.getCategory().equals(Biome.Category.TAIGA) ||
-    		  event.getCategory().equals(Biome.Category.ICY) ||
-    		  event.getCategory().equals(Biome.Category.SAVANNA) ||
-    		  event.getCategory().equals(Biome.Category.PLAINS) ||
-    		  event.getCategory().equals(Biome.Category.OCEAN) ||
-    		  event.getCategory().equals(Biome.Category.MESA) ||
-    		  event.getCategory().equals(Biome.Category.DESERT) ||
-    		  event.getCategory().equals(Biome.Category.BEACH)))  {
-				generateOre(event.getGeneration(), ClayFeatureConfig.FillerBlockType.EARTHENWAREGEN,
-						BlockInit.EARTHENWARE.get().getDefaultState(), 20, 40, 80, 25);}
+    		  event.getCategory().equals(Biome.Category.SWAMP) ||
+    		  event.getCategory().equals(Biome.Category.TAIGA) || 
+    		  event.getCategory().equals(Biome.Category.ICY) || 
+    		  event.getCategory().equals(Biome.Category.SAVANNA) || 
+    		  event.getCategory().equals(Biome.Category.PLAINS) || 
+    		  event.getCategory().equals(Biome.Category.OCEAN) || 
+    		  event.getCategory().equals(Biome.Category.MESA) || 
+    		  event.getCategory().equals(Biome.Category.DESERT) || 
+    		  event.getCategory().equals(Biome.Category.BEACH) ||
+    		  event.getCategory().equals(Biome.Category.JUNGLE)))  {
+				generateOre(event.getGeneration(), ClayFeatureConfig.FillerBlockType.KAOLINGEN,
+						BlockInit.KAOLIN_CLAY.get().getDefaultState(), 10, 40, 80, 15);}
 	}
 	
 	     
@@ -47,3 +48,4 @@ public class EarthenwareGen {
 	
 	
 }
+	
