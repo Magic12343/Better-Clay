@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterclay:porcelain_bricks"
+    }
+  },
+  "result": {
+    "item": "betterclay:big_porcelain_brick"
+  }
+}

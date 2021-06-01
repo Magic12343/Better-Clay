@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betterclay:magenta_porcelain_bricks"
+  },
+  "result": "betterclay:magenta_porcelain_bricks_stairs",
+  "count": 1
+}

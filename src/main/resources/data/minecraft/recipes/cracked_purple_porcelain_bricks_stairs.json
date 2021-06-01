@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterclay:cracked_purple_porcelain_bricks"
+    }
+  },
+  "result": {
+    "item": "betterclay:cracked_purple_porcelain_bricks_stairs",
+    "count": 4
+  }
+}

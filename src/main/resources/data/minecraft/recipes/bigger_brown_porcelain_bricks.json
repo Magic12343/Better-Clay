@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+    "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "betterclay:bigger_porcelain_bricks"
+    },
+    "X": {
+      "item": "minecraft:brown_dye"
+    }
+  },
+  "result": {
+    "item": "betterclay:bigger_brown_porcelain_bricks",
+    "count": 8
+  }
+}

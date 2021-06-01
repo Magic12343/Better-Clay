@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterclay:green_porcelain_bricks"
+  },
+  "result": "betterclay:cracked_green_porcelain_bricks",
+  "experience": 0.35,
+  "cookingtime": 200
+}

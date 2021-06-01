@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betterclay:red_porcelain_bricks"
+  },
+  "result": "betterclay:red_porcelain_bricks_wall",
+  "count": 1
+}
