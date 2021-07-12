@@ -30,6 +30,7 @@ public class EarthenwareGen {
     		  event.getCategory().equals(Biome.Category.OCEAN) ||
     		  event.getCategory().equals(Biome.Category.MESA) ||
     		  event.getCategory().equals(Biome.Category.DESERT) ||
+    		  event.getCategory().equals(Biome.Category.RIVER) ||
     		  event.getCategory().equals(Biome.Category.BEACH)))  {
 				generateOre(event.getGeneration(), ClayFeatureConfig.FillerBlockType.EARTHENWAREGEN,
 						BlockInit.EARTHENWARE.get().getDefaultState(), 20, 40, 80, 25);}

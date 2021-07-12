@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "betterclay:purple_porcelain_bricks"
-  },
-  "result": "betterclay:purple_porcelain_bricks_wall",
-  "count": 1
-}

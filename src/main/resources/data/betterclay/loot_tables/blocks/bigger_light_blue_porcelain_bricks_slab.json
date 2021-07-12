@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "betterclay:bigger_light_blue_porcelain_bricks_slab"
+        }
+      ]
+    }
+  ]
+}

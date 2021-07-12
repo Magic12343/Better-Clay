@@ -433,6 +433,7 @@
   
   
   
+  "item.betterclay.stoneware_chunk": "Stoneware Chunk",
   "item.betterclay.stoneware_brick": "Stoneware Brick",
   "item.betterclay.adobe_ball": "Adobe Ball",
   "item.betterclay.adobe_brick": "Adobe Brick",
@@ -446,6 +447,10 @@
   "advancements.husbandry.get_stoneware_bricks.title": "Age of the Stoneware!",
   "advancements.husbandry.get_stoneware_bricks.description": "Get the aethestic stoneware bricks.",
   "advancements.husbandry.get_adobe_bricks.title": "A Little of This and This!",
-  "advancements.husbandry.get_adobe_bricks.description": "Craft the hybrid Adobe Bricks."
+  "advancements.husbandry.get_adobe_bricks.description": "Craft the hybrid Adobe Bricks.",
+  "advancements.husbandry.get_porcelain_bricks.title": "Rainbow Bricks Incoming...",
+  "advancements.husbandry.get_porcelain_bricks.description": "Obtain the colorful Porcelain Bricks.",
+  "advancements.husbandry.get_earthenware_bricks.title": "Swampy!",
+  "advancements.husbandry.get_earthenware_bricks.description": "Obtain the muddy Earthenware Bricks."
   
 }

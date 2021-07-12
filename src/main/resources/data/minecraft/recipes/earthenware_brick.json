@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "betterclay:earthenware_chunk"
+  },
+  "result": "betterclay:earthenware_brick",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "betterclay:yellow_porcelain_bricks"
-  },
-  "result": "betterclay:yellow_porcelain_bricks_stairs",
-  "count": 1
-}
